@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 1: Preferencias de Usuario</title>
+<script src="src/script.js" defer></script>
+<link rel="stylesheet" href="src/script.css" >
+
+</head>
+<body onLoad="cargarPreferencias()">
+
+  <h1>Bienvenido, <span id="saludo">invitado</span></h1>
+
+  <form>
+    <label >Ingrese su nombre:</label>
+    <input type="text" id="nombre"><br><br>
+
+    <label >Seleccione color de fondo:</label>
+
+    <select id="color">
+      <option value="white">Blanco</option>
+      <option value="green">Verde</option>
+      <option value="blue">Azul </option>
+      <option value="yellow">Amarillo </option>
+    </select><br><br>
+
+
+    <input type="button" value="Guardar Preferencias" onClick="guardarPreferencias()" id="botonsito">
+  </form>
+
+</body>
+</html>

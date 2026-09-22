@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #34a350;
+  font-size: 30px;
+}
+
+h1 {
+  color: #124a4e;
+  
+}
+
+button {
+  padding: 8px 14px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #06751e;
+  cursor: pointer;
+  height: 100px;
+  width: 300px;
+  font-size: 35px;
+}
+
+
+
+#vaciar-carrito {
+  background-color: #c0392b;
+  margin-top: 15px;
+}
+
+
+
